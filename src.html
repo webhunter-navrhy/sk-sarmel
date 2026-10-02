@@ -1,0 +1,214 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>SARMEL Modra – obklady, dlažby, rekonštrukcie kúpeľní a sadrokartón</title>
+<meta name="description" content="SARMEL, s. r. o. z Modry: obkladačské práce, rekonštrukcie kúpeľní, sadrokartón (predaj aj montáž), murárske a maliarske práce. Modra a okolie.">
+<meta name="theme-color" content="#1c1915">
+<link rel="icon" href="img/favicon.png">
+<link rel="preload" as="image" href="img/hero.jpg">
+<link rel="preload" as="font" type="font/woff2" href="fonts/InstrumentSerif-normal-latin.woff2" crossorigin>
+<link rel="stylesheet" href="style.css?v={{css}}">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"HomeAndConstructionBusiness","name":"SARMEL, s. r. o.","email":"kol.l@post.sk","telephone":"+421905603816","taxID":"53904800","address":{"@type":"PostalAddress","streetAddress":"Harmónia 3349","addressLocality":"Modra","postalCode":"900 01","addressCountry":"SK"},"areaServed":"Modra a okolie","description":"Obkladačské práce, rekonštrukcie kúpeľní. Sadrokartónske, murárske a maliarske práce."}
+</script>
+</head>
+<body>
+<div class="grain" aria-hidden="true"></div>
+
+<div class="ribbon">Návrh webu pre SARMEL od WebHunter · fotky sú zatiaľ ilustračné, nahradíme ich Vašimi realizáciami</div>
+
+<header class="nav" id="nav">
+  <div class="nav__in">
+    <a href="#top" class="logo" aria-label="SARMEL – úvod">
+      <svg class="logo__s" viewBox="0 0 32 32" aria-hidden="true"><rect x="1" y="1" width="13.5" height="13.5" rx="1.5"/><rect x="17.5" y="1" width="13.5" height="13.5" rx="1.5"/><rect x="1" y="17.5" width="13.5" height="13.5" rx="1.5"/><rect x="17.5" y="17.5" width="13.5" height="13.5" rx="1.5" class="t"/></svg>
+      <span class="logo__t">SARMEL</span>
+    </a>
+    <nav class="nav__links" id="menu">
+      <a href="#sluzby">Služby</a>
+      <a href="#kupelna">Kúpeľňa</a>
+      <a href="#kladenie">Kladenie</a>
+      <a href="#realizacie">Realizácie</a>
+      <a href="#kontakt" class="nav__cta">Cenová ponuka <span aria-hidden="true">→</span></a>
+    </nav>
+    <button class="nav__burger" id="burger" aria-label="Menu" aria-expanded="false"><span></span><span></span></button>
+  </div>
+</header>
+
+<main id="top">
+
+<!-- HERO: fotka sa „obloží“ dlaždicu po dlaždici -->
+<section class="hero">
+  <div class="hero__t">
+    <p class="eyebrow"><span class="dot"></span>SARMEL, s. r. o. · Modra</p>
+    <h1 class="hero__h" data-words>Obklady a&nbsp;kúpeľne <em>od hrubej steny po poslednú škáru.</em></h1>
+    <p class="hero__lead">Obkladačské práce, rekonštrukcie kúpeľní, sadrokartón, murárske a&nbsp;maliarske práce v&nbsp;Modre a&nbsp;okolí.</p>
+    <div class="hero__btns">
+      <a href="#kontakt" class="btn btn--d">Nezáväzná cenová ponuka <span aria-hidden="true">→</span></a>
+      <a href="#kupelna" class="btn btn--l">Ako vzniká kúpeľňa</a>
+    </div>
+  </div>
+  <div class="hero__m">
+    <img src="img/hero.jpg" alt="Kúpeľňa s mramorovým obkladom a drevenými lamelami (ilustračné foto)" width="1500" height="1750" fetchpriority="high">
+    <div class="hero__tiles" id="tiles" aria-hidden="true"></div>
+    <div class="hero__grout" aria-hidden="true"></div>
+    <p class="hero__cap">Obklad · dlažba · sadrokartón</p>
+  </div>
+  <a href="#uvod" class="scroll" aria-label="Posunúť nižšie"><span></span></a>
+</section>
+
+<div class="mq" aria-hidden="true"><div class="mq__t">{{marquee}}</div></div>
+
+<!-- ÚVOD -->
+<section class="intro" id="uvod">
+  <div class="wrap intro__g">
+    <figure class="intro__img clip"><img src="img/intro.jpg" alt="Detail lesklého obkladu (ilustračné foto)" loading="lazy" width="1600" height="1073"></figure>
+    <div class="intro__t">
+      <p class="eyebrow rv">Jedna firma na celú prácu</p>
+      <p class="intro__big rv">Kúpeľňa nie je len obklad. Treba <em>murovať, zarovnať, postaviť sadrokartón</em> a&nbsp;na záver vymaľovať.</p>
+      <p class="rv">SARMEL robí všetky tieto práce. Nemusíte zháňať murára, obkladača a&nbsp;maliara zvlášť a&nbsp;zlaďovať ich termíny. Napíšete jednej firme a&nbsp;máte jeden kontakt od začiatku až do konca.</p>
+    </div>
+  </div>
+</section>
+
+<!-- SLUŽBY: editoriálny zoznam s náhľadom fotky pri kurzore -->
+<section class="svc" id="sluzby">
+  <div class="wrap">
+    <div class="svc__head">
+      <h2 class="h2 rv">Čo pre Vás <em>urobíme.</em></h2>
+      <p class="rv">Päť remesiel, ktoré k&nbsp;sebe patria. Môžete si objednať jedno z&nbsp;nich alebo celú rekonštrukciu.</p>
+    </div>
+    <ol class="svc__l" id="svc">{{sluzby}}</ol>
+  </div>
+  <div class="svc__pv" id="pv" aria-hidden="true"><img src="" alt=""></div>
+</section>
+
+<!-- KÚPEĽŇA: sticky fotka, kroky scrollujú (tmavá sekcia) -->
+<section class="bath" id="kupelna">
+  <div class="wrap bath__g">
+    <div class="bath__media" aria-hidden="true">
+      <div class="bath__frame">{{kroky_foto}}</div>
+      <p class="bath__n"><span id="bathn">01</span> / 04</p>
+    </div>
+    <div class="bath__t">
+      <p class="eyebrow eyebrow--d rv">Rekonštrukcia kúpeľne</p>
+      <h2 class="h2 rv">Z&nbsp;hrubej steny <em>hotová kúpeľňa.</em></h2>
+      {{kroky}}
+    </div>
+  </div>
+</section>
+
+<!-- SPÔSOB KLADENIA: interaktívna ukážka -->
+<section class="lay" id="kladenie">
+  <div class="wrap lay__g">
+    <div class="lay__t">
+      <p class="eyebrow rv">Vyskúšajte si</p>
+      <h2 class="h2 rv">Ten istý obklad, <em>iný priestor.</em></h2>
+      <p class="rv">Spôsob kladenia zmení miestnosť viac, než by ste čakali. Rovno pôsobí pokojne, na väzbu prirodzene, diagonála a&nbsp;rybia kosť dodajú pohyb. Kliknite a&nbsp;porovnajte.</p>
+      <div class="lay__ctrl rv" role="group" aria-label="Spôsob kladenia">
+        <button class="pill is-on" data-vzor="rovno">Rovno</button>
+        <button class="pill" data-vzor="vazba">Na väzbu</button>
+        <button class="pill" data-vzor="diagonala">Diagonálne</button>
+        <button class="pill" data-vzor="kost">Rybia kosť</button>
+      </div>
+      <div class="lay__ctrl lay__ctrl--c rv" role="group" aria-label="Farba obkladu">
+        <button class="sw is-on" data-farba="biela" style="--c:#efebe4" aria-label="Biela"></button>
+        <button class="sw" data-farba="terakota" style="--c:#b65f3e" aria-label="Terakota"></button>
+        <button class="sw" data-farba="zelena" style="--c:#56705f" aria-label="Zelená"></button>
+        <button class="sw" data-farba="antracit" style="--c:#38352f" aria-label="Antracit"></button>
+      </div>
+    </div>
+    <div class="lay__box rv">
+      <svg id="vzor" viewBox="0 0 600 600" role="img" aria-label="Ukážka spôsobu kladenia obkladu"></svg>
+      <p class="lay__lbl" id="vzorlbl">Rovno · biela</p>
+    </div>
+  </div>
+</section>
+
+<!-- REALIZÁCIE: bento -->
+<section class="gal" id="realizacie">
+  <div class="wrap">
+    <div class="gal__head">
+      <h2 class="h2 rv">Realizácie</h2>
+      <p class="rv">Tu budú fotky Vašich hotových kúpeľní, obkladov a&nbsp;sadrokartónu. Zatiaľ sú tu ilustračné zábery, aby ste videli, ako bude galéria vyzerať.</p>
+    </div>
+    <div class="bento">{{galeria}}</div>
+  </div>
+</section>
+
+<!-- POSTUP -->
+<section class="steps">
+  <div class="wrap">
+    <h2 class="h2 rv">Od dopytu <em>po odovzdanie.</em></h2>
+    <ol class="steps__l">
+      <li class="rv"><span class="steps__x" aria-hidden="true"></span><b>01</b><h3>Dopyt</h3><p>Napíšete, čo potrebujete. Stačí pár viet, približná plocha alebo fotka priestoru.</p></li>
+      <li class="rv"><span class="steps__x" aria-hidden="true"></span><b>02</b><h3>Obhliadka</h3><p>Pozrieme sa na priestor priamo na mieste a&nbsp;prejdeme, čo všetko treba urobiť.</p></li>
+      <li class="rv"><span class="steps__x" aria-hidden="true"></span><b>03</b><h3>Cenová ponuka</h3><p>Dostanete ponuku s&nbsp;cenou a&nbsp;termínom, aby ste vedeli, s&nbsp;čím počítať.</p></li>
+      <li class="rv"><span class="steps__x" aria-hidden="true"></span><b>04</b><h3>Realizácia</h3><p>Murárske práce, sadrokartón, obklad aj maľovka v&nbsp;rukách jednej firmy.</p></li>
+    </ol>
+  </div>
+</section>
+
+<!-- KONTAKT + DOPYT -->
+<section class="ct" id="kontakt">
+  <p class="ct__w" aria-hidden="true">Modra</p>
+  <div class="wrap ct__g">
+    <div class="ct__t">
+      <p class="eyebrow eyebrow--d rv">Kontakt</p>
+      <h2 class="h2 rv">Povedzte nám, <em>čo chystáte.</em></h2>
+      <p class="rv">Sídlime v&nbsp;Modre a&nbsp;pracujeme v&nbsp;Modre a&nbsp;okolí. Napíšte, o&nbsp;akú prácu ide a&nbsp;kde je zákazka, a&nbsp;ozveme sa Vám s&nbsp;ponukou.</p>
+      <dl class="ct__d">
+        <div class="rv"><dt>Telefón</dt><dd><a href="tel:+421905603816">0905 603 816</a></dd></div>
+        <div class="rv"><dt>E-mail</dt><dd><a href="mailto:kol.l@post.sk">kol.l@post.sk</a></dd></div>
+        <div class="rv"><dt>Adresa</dt><dd><a href="https://maps.google.com/?q=Harm%C3%B3nia%203349%2C%2090001%20Modra" target="_blank" rel="noopener">Harmónia 3349, 900&nbsp;01 Modra</a></dd></div>
+        <div class="rv"><dt>Firma</dt><dd>SARMEL, s. r. o. · IČO 53904800</dd></div>
+      </dl>
+    </div>
+    <form class="form rv" id="dopyt" novalidate>
+      <fieldset>
+        <legend>O&nbsp;akú prácu ide</legend>
+        <div class="chips">
+          <label class="chip"><input type="checkbox" name="praca" value="kupelna"><span>Kúpeľňa / WC</span></label>
+          <label class="chip"><input type="checkbox" name="praca" value="obklad"><span>Obklad, dlažba</span></label>
+          <label class="chip"><input type="checkbox" name="praca" value="sdk"><span>Sadrokartón</span></label>
+          <label class="chip"><input type="checkbox" name="praca" value="murar"><span>Murárske</span></label>
+          <label class="chip"><input type="checkbox" name="praca" value="malba"><span>Maľovanie</span></label>
+        </div>
+      </fieldset>
+      <div class="form__r">
+        <label class="f"><span>Približná plocha</span><input type="text" name="plocha" placeholder="napr. 12 m²"></label>
+        <label class="f"><span>Obec</span><input type="text" name="obec" placeholder="napr. Modra"></label>
+      </div>
+      <div class="form__r">
+        <label class="f"><span>Meno</span><input type="text" name="meno" autocomplete="name"></label>
+        <label class="f"><span>Telefón</span><input type="tel" name="tel" autocomplete="tel"></label>
+      </div>
+      <label class="f"><span>E-mail</span><input type="email" name="email" autocomplete="email"></label>
+      <label class="f"><span>Správa</span><textarea name="sprava" rows="3" placeholder="Čo chcete urobiť, kedy by ste chceli začať…"></textarea></label>
+      <label class="file"><input type="file" name="foto" accept="image/*" multiple><span>+ Priložiť fotku priestoru</span></label>
+      <button class="btn btn--t btn--full" type="submit">Odoslať dopyt <span aria-hidden="true">→</span></button>
+      <p class="form__ok" id="formok" hidden>Toto je návrh webu, správa sa neodoslala. Po spustení webu Vám budú dopyty chodiť priamo na kol.l@post.sk.</p>
+    </form>
+  </div>
+</section>
+
+</main>
+
+<footer class="ft">
+  <div class="wrap ft__in">
+    <p class="ft__logo">SARMEL</p>
+    <p>SARMEL, s. r. o. · Harmónia 3349, 900&nbsp;01 Modra · IČO 53904800</p>
+    <p class="ft__c">© 2026 SARMEL · web: WebHunter</p>
+  </div>
+</footer>
+
+<div class="lb" id="lb" hidden>
+  <button class="lb__x" id="lbx" aria-label="Zavrieť">×</button>
+  <img id="lbimg" src="" alt="">
+</div>
+
+<script src="main.js?v={{js}}" defer></script>
+</body>
+</html>
